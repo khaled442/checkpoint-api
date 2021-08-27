@@ -1,0 +1,33 @@
+body {
+  background-color: black;
+}
+img {
+  height: 560px;
+  width: 1330px;
+  border-radius: 10px;
+}
+ul {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: nowrap;
+  list-style-type: none;
+}
+.home {
+  background-color: black;
+  height: 60px;
+  border-radius: 10px;
+  font-size: 20px;
+  font-family: "Times New Roman", Times, serif;
+  padding-top: 8px;
+}
+li {
+  padding-top: -5px;
+}
+a {
+  color: red;
+  cursor: pointer;
+}
+
+a:hover {
+  color: rgb(0, 197, 155);
+}
